@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 70px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#img {
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#options {
+    width: 55%;
+    height: 90%;
+}
+#options ul {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#options ul li {
+    list-style-type: none;
+    display: inline;
+}
+#options ul li a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+#options ul li a:hover{
+    color: #E25822;
+}
+#icons {
+    width: 10%;
+    height: 90%;
+    padding-top: 3px;
+    color: #E25822;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.hero-section {
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("hero\ section\ image.png");
+    background-size: cover;
+    
+}
+.hero-right {
+    height: 500px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-left {
+    height: 500px;
+    width: 30%;
+    text-align: center;
+}
+.hero-left h4 {
+    position: relative;
+    top: 20px;
+    color: white;
+}
+.hero-left p {
+    font-size: 1.3rem;
+    color: white;
+}
+.heading1 {
+    font-size: 3.5rem;
+    color: white;
+}
+.two {
+    height: 50px;
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.start {
+    height: 35px;
+    width: 130px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+    border-radius: 25px;
+}
+.google {
+    height: 35px;
+    width: 150px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+    border-radius: 25px;
+}
+.img1 {
+    height: 300px;
+    width: 180px;
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+    background-image: url("download.jfif");
+    background-size: cover;
+}
+.img2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url("cropped-nss-1.png.webp");
+    background-size: cover;
+    border: 3px solid orange;
+}
+.img3 {
+    height: 300px;
+    width: 180px;
+    position: relative;
+    bottom: 30px;
+    border-radius: 50%;
+    background-image: url("download\ \(1\).jfif");
+    background-size: cover;
+}
+.animate {
+    height: 50px;
+    background-color: #E25822;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
